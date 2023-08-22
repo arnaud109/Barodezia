@@ -740,8 +740,8 @@ let newsLoadingListener = null
  */
 function setNewsLoading(val){
     if(val){
-        const nLStr = 'Checking for News'
-        let dotStr = '..'
+        const nLStr = 'Recherche des actualitées'
+        let dotStr = '...'
         nELoadSpan.innerHTML = nLStr + dotStr
         newsLoadingListener = setInterval(() => {
             if(dotStr.length >= 3){
